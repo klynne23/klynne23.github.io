@@ -5,7 +5,7 @@
 
         body {
             /* background-color:#e2fdff; */ 
-            background-image: url(sky.jpg);
+            background-image: url(./images/sky.jpg);
             font-family: sans-serif;
             line-height: 35px;
         }
