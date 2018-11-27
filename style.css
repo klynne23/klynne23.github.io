@@ -1,4 +1,8 @@
-
+/*  
+    inline styles are styles directly placed into the element they are being applied to
+    internal styles: use the style tag within the head tag and allows for element styling in one place.
+ */
+ 
         body {
             background-color:#e2fdff; 
             font-family: sans-serif;
