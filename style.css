@@ -92,6 +92,10 @@
             color: green;
         }
 
+        #contact:hover {
+            color: yellow;
+        }
+
         img:hover {
             border: 5px dotted orange;
             border-radius: 50px; 
