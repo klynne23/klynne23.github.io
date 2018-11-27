@@ -6,7 +6,7 @@
         body {
             /* background-color:#e2fdff; */ 
             background-image: url(./images/clouds.jpg);
-            background-size: cover;
+            background-size: cover; /* covers the entire page */
             font-family: sans-serif;
             line-height: 35px;
         }
