@@ -67,7 +67,41 @@
             font-size: 25px;
             text-align: center;
             text-shadow: 2px 2px 2px black;
+            }
+
+        /* psuedo classes = applying effects, implementing dynamic operations
+            a:hover (when hovering over a link) 
+            a:visited (once a link has been clicked) 
+            a:focus (when tabbing through links) 
+            a:active (when the link is being clicked on) 
+        */
+
+        a:visited {
+            color: blue; 
         }
+
+        a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        a:focus {
+            background-color: black;
+            color: orange;
+        }
+
+        a:active {
+            color: fuchsia;
+        }
+
+        h1:hover {
+            color: blueviolet; 
+        }
+
+        #about:hover {
+            color: green;
+        }
+
     </style> <!-- END STYLE -->
 
 </head> <!-- END HEAD -->
