@@ -5,7 +5,7 @@
 
         body {
             /* background-color:#e2fdff; */ 
-            background-image: url(./images/sky.jpg);
+            background-image: url(./images/clouds.jpg);
             font-family: sans-serif;
             line-height: 35px;
         }
@@ -32,6 +32,8 @@
             font-size: 20px;
             color: white; 
             padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
         ul {
             /* background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); */ 
