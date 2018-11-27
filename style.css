@@ -1,0 +1,90 @@
+
+        body {
+            background-color:#e2fdff; 
+            font-family: sans-serif;
+        }
+        h1 {
+            color: gold; 
+            font-family: Georgia, serif; 
+            font-size: 50px; 
+            text-align: center;
+            text-shadow: 4px 2px 2px black;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: 5px solid #1933c6;
+            border-radius: 50px;
+            padding: 5px;
+        }
+        p {
+            background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); 
+            text-align: justify; 
+            font-size: 20px;
+        }
+        ul {
+            background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); 
+            text-align: center; 
+        }
+
+        /* when calling a class: .[classname], can reuse a class to apply to multiple elements
+            when calling an ID: #[idname], only use an id once for one element
+        */
+
+        .green {
+            color: green;
+        }
+
+        #about {
+            color: violet;
+            font-size: 25px;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        #contact {
+            color: red;
+            font-size: 25px;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+            }
+
+        /* psuedo classes = applying effects, implementing dynamic operations
+            a:hover (when hovering over a link) 
+            a:visited (once a link has been clicked) 
+            a:focus (when tabbing through links) 
+            a:active (when the link is being clicked on) 
+        */
+
+        a:visited {
+            color: blue; 
+        }
+
+        a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        a:focus {
+            background-color: black;
+            color: orange;
+        }
+
+        a:active {
+            color: fuchsia;
+        }
+
+        h1:hover {
+            color: blueviolet; 
+        }
+
+        #about:hover {
+            color: green;
+        }
+
+        img:hover {
+            border: 5px dotted orange;
+            border-radius: 50px; 
+            padding: 5px;
+        }
