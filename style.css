@@ -2,12 +2,16 @@
     inline styles are styles directly placed into the element they are being applied to
     internal styles: use the style tag within the head tag and allows for element styling in one place.
  */
- 
+
         body {
-            background-color:#e2fdff; 
+            /* background-color:#e2fdff; */ 
+            background-image: url(sky.jpg);
             font-family: sans-serif;
+            line-height: 35px;
         }
         h1 {
+            padding-top: 20px;
+            padding-bottom: 20px; 
             color: gold; 
             font-family: Georgia, serif; 
             font-size: 50px; 
@@ -23,12 +27,14 @@
             padding: 5px;
         }
         p {
-            background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); 
+            /* background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); */ 
             text-align: justify; 
             font-size: 20px;
+            color: white; 
+            padding-top: 10px;
         }
         ul {
-            background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); 
+            /* background-image: linear-gradient(to right, #e2fdff, #0ac2ff, #e2fdff); */ 
             text-align: center; 
         }
 
@@ -36,11 +42,8 @@
             when calling an ID: #[idname], only use an id once for one element
         */
 
-        .green {
-            color: green;
-        }
-
         #about {
+            padding-bottom : 20px; 
             color: violet;
             font-size: 25px;
             text-align: center;
