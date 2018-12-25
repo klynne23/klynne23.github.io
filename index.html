@@ -1,42 +1,45 @@
-<!DOCTYPE html>  <!-- declares to the browser that this is html-->
-<html lang="en" dir="ltr"> <!-- language set to english, text direction set to 'left to right', ALL CODE GOES IN BETWEEN HTML TAGS-->
-    
-<!--
-    ************
-    HEAD SECTION
-    ************
--->
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>PORTFOLIO</title>    
-    <link rel="stylesheet" type="text/css" href="./reset.css"/> <!-- reset stylesheets zero out all browser assigned styling -->
-    <link rel="stylesheet" type="text/css" href="./style.css"/> <!-- self closing tag // the "./" is a more specific indicator of where to find the css file-->
-</head> <!-- END HEAD -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
 
-<!--
-    ************
-    BODY SECTION
-    ************
--->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css"> -->
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
 
-<body> <!-- inline style attribute: style="background-color: red" applies style directly to element-->
-    <h1>Kirthi Lynne</h1>
-    <h2 id="about">Full Stack Web Developer</h2>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 
-    <img src="https://images.meredith.com/content/dam/bhg/Images/2009/07/101422234.jpg.rendition.200sq.jpg"/>
-    <!-- img src="IMAGE" width="200px"-->
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum purus lorem, malesuada nec imperdiet et, auctor eget turpis. Vivamus rutrum lorem ac arcu tempor, ut lobortis purus efficitur. Nullam sollicitudin interdum augue eu venenatis. In gravida tristique erat eget eleifend. Praesent posuere rutrum arcu, nec consequat est malesuada vitae. Sed quis sem at quam blandit varius sed non eros. Aliquam maximus lorem non purus scelerisque fermentum. Aliquam erat volutpat. Ut consequat nibh dui, nec posuere neque porttitor at.
-    </p>
+<body>
 
-    <h2 id="contact">Contact</h2>
+  <div class="bg">
 
-    <ul> <!-- unordered list, all list items must be wrapped with "li" tags regardless of list type (ol/ul)-->
-        <li><a href="https://github.com/klynne23" target="_blank"><img src="./icons/github.svg"></a></li>
-        <li><a href="https://linkedin.com" target="_blank"><img src="./icons/linkedin.svg"></a></li>
-        <li><a href="mailto:klynne23@yahoo.com"><img src="./icons/email.svg"></a></li> <!-- mailto: tells the browser the content is an email address -->
-    </ul>
+    <div class="portfolio" id="pF">
+      <h1 class="title"> Kirthi Lynne </h1>
+      <hr class="hr-text" data-content="//">
+      <h5 class="subTitle">Full Stack Web Developer</h5>
+      <span> 
+        <h6> <a href="./assets/pages/home.html">
+            Enter →
+        </a></h6>
+      </span>
+    </div>
+
+  </div> <!-- end class=bg -->
+
+
+
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- link to js file -->
+  <script src="./assets/js/code.js"></script>
+
 </body>
 
-</html> <!-- END OF HTML DOCUMENT -->
+
+</html>
