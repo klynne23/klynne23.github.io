@@ -79,7 +79,7 @@ a {
     text-decoration: none;
     color: white;
     text-shadow: 0px 0px 2px black;
-    transition: .5s;
+    transition: .5s;   
 }    
 
 a:hover {
@@ -88,6 +88,5 @@ a:hover {
     /* End http://www.cursors-4u.com */
     color: black;
     text-shadow: none;
-
 }
 
