@@ -1,0 +1,92 @@
+/****************/
+/* BODY SECTION */
+/****************/
+
+
+body, html {
+    margin: 0;
+    height: 100%;
+    
+}
+
+.bg {
+    /* image used {https://unsplash.com/}*/
+    background-image: url("../images/mountain.jpg");
+
+    /* full height */
+    height: 100%;
+    width: 100%;
+
+    /* center and scale image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+
+/***************/
+/* NAV SECTION */
+/***************/
+
+
+
+.nav {
+    position: sticky;
+    top: 0;
+}
+
+.menu {
+    background-color: white;
+    /* border-bottom: 15px double black; */
+}
+
+.name {
+    text-shadow: 1px 1px 5px lightblue;
+    color: black;
+
+}
+
+.rainbowText {
+    text-shadow: 1px 1px 5px black;
+}
+
+i {
+    color: black;
+    text-shadow: 1px 1px 5px lightblue;
+}
+
+
+
+.gradientLine {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+
+/*****************/
+/* ABOUT SECTION */
+/*****************/
+
+.about {
+    /* width: 300px;
+    height: 70px; */
+    padding: 1%;
+    background-color: white;
+    text-align: center;
+    transition: ease 1s;
+
+    /* keeps the div in the center of the bg element */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.about p {
+    font-family: "Back to Black Demo";
+    font-size: 4em;
+    margin-bottom: 0px;
+}

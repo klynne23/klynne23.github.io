@@ -21,7 +21,7 @@ body, html {
 
 .portfolio {
     width: 300px;
-    height: 75px;
+    height: 70px;
     padding: 1%;
     background-color: white;
     text-align: center;
@@ -33,6 +33,14 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
 
+}
+
+.portfolio h6 {
+    margin-bottom: 0px;
+}
+
+.portfolio h6.extraLink {
+    margin-top: 3px;
 }
 
 .portfolio:hover {
@@ -72,14 +80,14 @@ hr.hr-text {
 span h6 {
     margin-top: 13px;
     opacity: 0;
-    transition: ease .5s;
+    transition: ease 1s;
 }    
 
 a {
     text-decoration: none;
     color: white;
     text-shadow: 0px 0px 2px black;
-    transition: .5s;   
+    transition: ease .5s;   
 }    
 
 a:hover {
