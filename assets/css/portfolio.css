@@ -20,13 +20,15 @@ body {
 }
 
 .menu {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     /* border-bottom: 15px double black; */
 }
 
 .name {
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 5px #3cc9f8, 0px 0px 20px #3cc9f8;
     color: black;
+    font-family: "Amperzand";
+    font-size: 17px;
 
 }
 
@@ -36,7 +38,7 @@ body {
 
 i {
     color: black;
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 15px #3cc9f8, 0px 0px 15px #3cc9f8;
 }
 
 
@@ -70,19 +72,21 @@ i {
 }
   
 .hero-section h1 {
-    font-family: "Back to Black Demo";
+    /* font-family: "Back to Black Demo"; */
+    font-family: "Equalizer Script Demo";
+    text-shadow: 2px 2px 3px black, -2px -2px 5px rgb(60, 201, 248);
     font-size: 5em;
     z-index: 1;
-    text-shadow: 2px 2px 3px black;
+    /* text-shadow: 2px 2px 3px black; */
     background-color: rgba(0, 0, 0, 0.452);
     color: white;
-    width: 350px;
+    width: 270px;
     margin: 0 auto;
     /* border-radius: 35px; */
     box-shadow: 0px 0px 24px 9px rgba(0, 0, 0, 0.788);
 }
 
-.hero-section h5 {
+/* .hero-section h5 {
     z-index: 1;
     background-color: rgba(255, 255, 255, 0.507);
     text-shadow: 2px 2px 3px rgb(255, 255, 255);
@@ -91,7 +95,7 @@ i {
     margin: 0 auto;
     box-shadow: 0px 0px 24px 9px rgba(255, 255, 255, 0.623);
 
-}
+} */
 
  hr.hr-text {
     z-index: 1;

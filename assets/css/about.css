@@ -34,16 +34,19 @@ body, html {
 .nav {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .menu {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
     /* border-bottom: 15px double black; */
 }
 
 .name {
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 5px #3cc9f8, 0px 0px 20px #3cc9f8;
     color: black;
+    font-family: "Amperzand";
+    font-size: 17px;
 
 }
 
@@ -53,7 +56,7 @@ body, html {
 
 i {
     color: black;
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 15px #3cc9f8, 0px 0px 15px #3cc9f8;
 }
 
 
@@ -70,8 +73,9 @@ i {
 /*****************/
 
 .about {
-    /* width: 300px;
-    height: 70px; */
+    width: 900px;
+    height: 550px;
+    overflow: scroll;
     padding: 1%;
     background-color: white;
     text-align: center;
@@ -85,8 +89,48 @@ i {
 
 }
 
-.about p {
-    font-family: "Back to Black Demo";
+.title {
+    font-family: "Equalizer Script Demo";
     font-size: 4em;
-    margin-bottom: 0px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 5px rgb(85, 85, 85), -2px -2px 5px rgb(60, 201, 248);
+
+}    
+
+.title h1 {
+    margin-bottom: -24px;
+}    
+
+hr.hr-text {
+    border: 0;
+    height: 1px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+.subTitle {
+    margin: auto;
+    font-family: "Print Clearly";
+    /* font-size: .9em; */
+}    
+
+span h6 {
+    margin-top: 13px;
+    opacity: 0;
+    transition: ease 1s;
+    font-family: "Print Clearly";
+
+}    
+
+.aboutContent {
+    text-align: left;
+}
+
+.aboutContent h4 {
+    text-decoration: underline;
 }

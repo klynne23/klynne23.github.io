@@ -34,16 +34,19 @@ body, html {
 .nav {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .menu {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
     /* border-bottom: 15px double black; */
 }
 
 .name {
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 5px #3cc9f8, 0px 0px 20px #3cc9f8;
     color: black;
+    font-family: "Amperzand";
+    font-size: 17px;
 
 }
 
@@ -53,7 +56,7 @@ body, html {
 
 i {
     color: black;
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 15px #3cc9f8, 0px 0px 15px #3cc9f8;
 }
 
 
@@ -69,24 +72,36 @@ i {
 /* ABOUT SECTION */
 /*****************/
 
+
+
 .about {
     /* width: 300px;
     height: 70px; */
     padding: 1%;
     background-color: white;
-    text-align: center;
     transition: ease 1s;
-
+    
     /* keeps the div in the center of the bg element */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
+}
+
+.about h2 {
+    font-family: "Equalizer Script Demo";
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 5px rgb(85, 85, 85), -2px -2px 5px rgb(60, 201, 248);
 
 }
 
-.about p {
-    font-family: "Back to Black Demo";
-    font-size: 4em;
-    margin-bottom: 0px;
+hr {
+    margin: 0px;
+}
+
+.socialLinks {
+    text-align: center;
 }

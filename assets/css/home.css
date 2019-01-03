@@ -11,7 +11,7 @@ body, html {
 
 .bg {
     /* image used {https://unsplash.com/}*/
-    background-image: url("../images/treeline.jpg");
+    background-image: url("../images/whitefloral.jpg");
 
     /* full height */
     height: 100%;
@@ -34,16 +34,19 @@ body, html {
 .nav {
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .menu {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
     /* border-bottom: 15px double black; */
 }
 
 .name {
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 5px #3cc9f8, 0px 0px 20px #3cc9f8;
     color: black;
+    font-family: "Amperzand";
+    font-size: 17px;
 
 }
 
@@ -53,7 +56,7 @@ body, html {
 
 i {
     color: black;
-    text-shadow: 1px 1px 5px lightblue;
+    text-shadow: 0px 0px 15px #3cc9f8, 0px 0px 15px #3cc9f8;
 }
 
 
@@ -70,12 +73,13 @@ i {
 /*****************/
 
 .about {
-    /* width: 300px;
-    height: 70px; */
+    width: 700px;
+    /* height: 70px;  */
     padding: 1%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.562);
     text-align: center;
     transition: ease 1s;
+    border-radius: 50px;
 
     /* keeps the div in the center of the bg element */
     position: absolute;
@@ -85,8 +89,32 @@ i {
 
 }
 
-.about p {
-    font-family: "Back to Black Demo";
+.about h2 {
+    font-family: "Equalizer Script Demo";
     font-size: 4em;
     margin-bottom: 0px;
+    /* text-shadow: 2px 2px 5px rgb(60, 201, 248), -2px -2px 5px rgb(246, 150, 255); */
+    text-shadow: 2px 2px 5px rgb(85, 85, 85), -2px -2px 5px rgb(60, 201, 248);
+
 }
+
+hr {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+img#headshot {
+    padding-right: 3%;
+    float: left;
+    max-height: 200px;
+}
+
+.uniV {
+    text-decoration: underline;
+}
+
+li, p {
+    list-style: none;
+    text-align: -webkit-auto;
+}
+
