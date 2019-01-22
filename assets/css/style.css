@@ -1,107 +1,306 @@
-body, html {
-    margin: 0;
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mrs+Saint+Delafield|Rouge+Script|Staatliches|Thasadith');
+
+body {
+    margin: 0px;
     height: 100%;
-    
+    background-color: rgb(14, 14, 29);
+    /* background-image: url("../images/text6.jpg"); */
+
 }
 
-.bg {
-    /* image used {https://unsplash.com/}*/
-    background-image: url("../images/greenleaves.jpg");
+hr.divider {
 
-    /* full height */
-    height: 100%;
-    width: 100%;
+    /* height: 5px; */
+	border: 0;
+	/* box-shadow: 0 10px 10px -10px #8c8b8b inset; */
 
-    /* center and scale image */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    
+    /* border-top: 3px double #8c8b8b; */
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin-top: 1%;
+    width: 60%;
 }
 
-.portfolio {
-    width: 300px;
-    height: 80px;
-    padding: 1%;
-    background-color: white;
+hr.divider.port {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+a.projectLink {
+    color: white;
+    transition: 1s;
+}
+
+a.projectLink:link {
+    text-decoration: none;
+}
+
+a.projectLink:hover {
+    color: #85bdfd;
+    letter-spacing: 10px;
+}
+
+/******************/
+/* HEADER SECTION */
+/******************/
+
+.header {
+    background-image: linear-gradient(to right, #85bdfd, #6c8eff, #936cff);
+    box-shadow: 2px 2px 5px black;
+    background-image: url("../images/text1.jpg")
+    /* animation: change-color 5s linear infinite; */
+}
+
+
+
+.vCenter {
+    color: #ffffff;
     text-align: center;
-    transition: ease 1s;
-
-    /* keeps the div in the center of the bg element */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    padding: 130px 0 40px 0;
 }
 
-.portfolio h6 {
+.lowerC {
+    margin-top: 50px;
+}
+
+header p {
+    margin-top: 0px;
     margin-bottom: 0px;
+    text-shadow: 0px 0px 2px white;
+    /* font-size: 2em; */
 }
 
-.portfolio h6.extraLink {
-    margin-top: 3px;
+p.line {
+    letter-spacing: -4px;
+    font-size: 1.1em;
 }
 
-.portfolio:hover {
-    height: 105px;
+p.stars {
+    letter-spacing: 10px;
+}
 
-    /* Start http://www.cursors-4u.com */ 
-    cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;
-    /* End http://www.cursors-4u.com */
+h1.script {
+    text-shadow: 3px 3px 1px #525252, 2px 2px 1px #525252;
+    margin: 0 auto;
+    font-family: "Equalizer Script Demo";
+    font-size: 10em;
+    font-weight: lighter;
+}
 
-}    
+h1.caps {
+    text-shadow: 2px 2px 2px black;
+    margin: 0 auto;
+    font-size: 10em;
+    font-family: "Print Clearly";
+}
 
-.portfolio:hover h6 {
-    opacity: 1;
-}    
+h4.subtitle {
+    font-family: "Print Clearly";
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-size: 1.8em;
+    text-shadow: 2px 2px 1px #525252;
 
-.title {
-    margin: auto;
+}
+
+h6.arrowSymbol {
+    position: relative;
+    font-size: 3em;
+    margin: 0px;
+    margin-top: 40px;
+    height: 40px;
+    animation: arrow 2s infinite;
+    top: 0px;
+}
+
+@keyframes arrow {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 20px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*****************/
+/* ABOUT SECTION */
+/*****************/
+
+.about {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+
+h2.aboutMe {
+    color: white;
+    /* font-family: "Staatliches"; */
+    font-family: "Amatic SC";
     /* font-family: "Print Clearly"; */
-    font-size: 2em;
+    letter-spacing: 5px;
+    font-size: 5em;
+    margin-bottom: 3%;
 
-}    
+}
 
-.title h1 {
-    margin-bottom: -24px;
-}    
+img.mePic {
+    margin-bottom: 40%;
+    opacity: 1;
+}
 
-hr.hr-text {
+hr.skillsHr {
     border: 0;
     height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+    margin-top: 1%;
+    border-bottom: 1px dotted #ccc;
+    width: 70%;
+}
+
+.description {
+    border-right: 1px solid white;
 }
 
 
+.about .col-md-6 {
+    /* outline: 1px solid white; */
+}
 
+.col-md-4{
+    /* padding: auto 1%; */
+    font-family: "Print Clearly";
+    font-size: 1.2em;
+}
 
-.subTitle {
-    margin: auto;
-    /* font-family: "Print Clearly"; */
-    /* font-size: .9em; */
-}    
+.about p {
+color: white;
+font-size: 2em;
+font-family: "Print Clearly";
+margin-top: 5px;
+margin-bottom: 0px;
 
-span h6 {
-    margin-top: 13px;
-    opacity: 0;
-    transition: ease 1s;
-    /* font-family: "Print Clearly"; */
+}
 
-}    
+p.skills {
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: "Print Clearly";
 
-a {
-    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 1%;
+}
+
+ul li {
+   list-style-type: none;
+}
+
+li {
     color: white;
-    text-shadow: 0px 0px 2px black;
-    transition: ease .5s;   
-}    
-
-a:hover {
-    /* Start http://www.cursors-4u.com */
-    cursor: url(http://cur.cursors-4u.net/others/oth-6/oth589.cur), auto !important;
-    /* End http://www.cursors-4u.com */
-    color: black;
-    text-shadow: none;
 }
 
+
+
+
+/****************/
+/* WORK SECTION */
+/****************/
+
+.work {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.workPortfolio {
+    margin-top: 6%;
+}
+
+.workContainer {
+    color: white;
+    width: 90%;
+}
+
+h2.workTitle {
+    color: white;
+    /* font-family: "Staatliches"; */
+    font-family: "Amatic SC";
+    letter-spacing: 5px;
+    font-size: 5em;
+    margin-bottom: 5%;
+
+
+}
+
+img {
+    width: 100%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+.work .col-md-6 {
+    font-family: "Print Clearly";
+}
+
+.work .projectTitle {
+    font-size: 1.5em;
+}
+
+.fullPort {
+    margin-top: 2%;
+}
+
+p.desc {
+    margin-bottom: 1%;
+    font-size: 1.1em;
+}
+
+/*******************/
+/* CONTACT SECTION */
+/*******************/
+
+.contact {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+
+h2.contactTitle {
+    color: white;
+    /* font-family: "Staatliches"; */
+    font-family: "Amatic SC";
+    letter-spacing: 5px;
+    font-size: 5em;
+    margin-bottom: 5%;
+
+}
+
+button {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/******************/
+/* FOOTER SECTION */
+/******************/
+
+.footer-copyright {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+}
