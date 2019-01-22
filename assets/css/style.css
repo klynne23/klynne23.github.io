@@ -80,7 +80,7 @@ p.stars {
 }
 
 h1.script {
-    text-shadow: 3px 3px 1px #525252, 2px 2px 1px #525252;
+    text-shadow: 5px 2px 2px #ffffff80, -5px -2px black;
     margin: 0 auto;
     font-family: "Equalizer Script Demo";
     font-size: 10em;
