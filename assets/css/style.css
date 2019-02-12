@@ -186,9 +186,12 @@ hr.skillsHr {
 color: white;
 font-size: 2em;
 font-family: "Print Clearly";
-margin-top: 5px;
+/* margin-top: 5px; */
 margin-bottom: 0px;
+}
 
+.descriptionMe {
+    margin-top: 35px;
 }
 
 p.skills {
@@ -201,6 +204,7 @@ p.skills {
 
 ul {
     margin-bottom: 1%;
+    padding: 0;
 }
 
 ul li {
