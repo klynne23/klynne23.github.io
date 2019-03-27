@@ -1,218 +1,306 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kirthi Lynne</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Portfolio</title>
+	<meta name="description"
+		content="Learn how to recreate the preloader from Cantina Negrar. Tutorial for a passionate front-end web developers by Petr Tichy.">
 
-  <!--Import Google Icon Font-->
-  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-
-  <!-- Compiled and minified CSS -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-
-  <!-- Compiled and minified JavaScript -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
-
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
+	<!--iOS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="icon" type="image/png" href="./img/icon2.png">
+
+
+	<!-- <link rel="stylesheet" href="css/normalize.css"> -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
-<body>
+<body class="demo">
+	<!--[if lt IE 7]>
+<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
 
 
-  <header>
+	<div id="loader-wrapper">
+			<div id="loader"></div>
 
-    <div class="header">
-      <div class="vCenter">
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
 
-        <!-- <p>∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙∙</p> -->
-        <h1 class="script">Kirthi Lynne</h1>
-        <!-- <h1 class="caps">KIRTHI LYNNE</h1> -->
-        <!-- <p>∙∙∙∙∙∙∙</p> -->
+		</div>
 
-        <div class="lowerC">
+	<div class="container">
+		<div id="bl-main" class="bl-main">
 
-          <p class="line">――――――――</p>
+			<section>
+				<div class="bl-box">
+					<h2 class="bl-icon bl-icon-about">About</h2>
+				</div>
+				<div class="bl-content">
+					<h2 id="aboutTitle">About</h2>
 
-          <!-- <p class="stars">⋆⋆⋆⋆⋆</p> -->
+					<div class='aboutContent'>
+						<p>
+							<img id='mePic' src='./img/me.png'>
+							Kirthi Lynne Bisset is a full stack web developer from Fairfax, Virginia.
+							She possesses a bachelor's degree in Information Systems and Operations Management with a
+							minor in Information Technology.
+							She has experience the fields of customer service, government billing and finance, and
+							assistant teaching.
+							Her positive attitude and penchant for learning and growing makes her a valuable asset to
+							any team.
+							She additionally enjoys animated films, experiencing new things, spring weather, and
+							spending time with any of her several pets.
+						</p>
+						<!-- </div> -->
+					</div>
+				</div>
+				<span class="bl-icon bl-icon-close"></span>
+			</section>
 
-          <h4 class="subtitle"> FULL STACK WEB DEVELOPER </h4>
-          <p class="line">――――――――</p>
-        </div>
+			<section id="bl-work-section">
+				<div class="bl-box">
+					<h2 class="bl-icon bl-icon-works">Portfolio</h2>
+				</div>
+				<div class="bl-content">
+					<h2>Portfolio</h2>
+					<ul id="bl-work-items">
+						<li data-panel="panel-1"><a href="#"><img src="./img/marvel1.png" /></a></li>
+						<li data-panel="panel-2"><a href="#"><img src="./img/pokemon.png" /></a></li>
+						<li data-panel="panel-3"><a href="#"><img src="./img/dclutter.png" /></a></li>
+						<li data-panel="panel-4"><a href="#"><img src="./img/chronological.png" /></a></li>
+					</ul>
+				</div>
+				<span class="bl-icon bl-icon-close"></span>
+			</section>
 
-        <h6 class="arrowSymbol">︾</h6>
-        
-        <!-- <h6 class="arrowSymbol">⌄</h6> -->
-
-      </div>
-    </div>
-
-  </header>
-
-  <main>
-
-    <div class="about">
-      <h2 class="aboutMe">⊢ ABOUT ME ⊣</h2>
-
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-1">
-          </div>
-          <div class="col-md-2 col-lg-2 col-sm-2">
-            <img class="mePic" src="assets/images/me2.png">
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-sm-2">
-            <img class="mePic" src="assets/images/herrmann.png">
-          </div>
-
-          <div class="col-md-2 col-lg-2 col-sm-2">
-            <img class="mePic" src="assets/images/me.png">
-          </div>
-          <div class="col-md-2 col-lg-2 col-sm-2">
-            <img class="mePic" src="assets/images/ginger1.png">
-          </div>
-          <div class="col-md-2 col-lg-2 col-sm-2">
-            <img class="mePic" src="assets/images/me1.png">
-          </div>
-
-
-          <div class="col-md-1">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6 col-md-6 description">
-            <p class="descriptionMe"> Eager to learn, design, create, develop and grow throughout my web development journey and career.
-            </p>
-          </div>
-
-          <div class="col-lg-6 col-md-6">
-            <p class="skills"> SKILLS</p>
-            <!-- <hr class="skillsHr"> -->
-            <div class="row">
-              <div class="col-md-4 col-sm-12">
-                <ul>
-                  <li>⋆ HTML</li>
-                  <li>⋆ CSS</li>
-                  <li>⋆ JAVASCRIPT</li>
-                  <li>⋆ SEQUELIZE</li>
-                  <li>⋆ MVCs/ORMs</li>
-
-                </ul>
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <ul>
-                  <li>⋆ jQUERY</li>
-                  <li>⋆ NODE</li>
-                  <li>⋆ AJAX</li>
-                  <li>⋆ MERN</li>
-                </ul>
+			<section>
+				<div class="bl-box">
+					<h2 class="bl-icon bl-icon-blog">Links</h2>
+				</div>
+				<div class="bl-content contactDiv">
+					<h2 class='contactTitle'>Find Me Online!</h2>
+					<div class='contactLinks'>
 
 
-              </div>
-              <div class="col-md-4 col-sm-12">
-                <ul>
-                  <li>⋆ mySQL</li>
-                  <li>⋆ EXPRESS</li>
-                  <li>⋆ MONGO/MONGOOSE</li>
-                  <li>⋆ REACT</li>
-                </ul>
-              </div>
-            </div> <!-- end row -->
-          </div> <!-- end col-lg-6 col-md-6 -->
-        </div> <!-- end row -->
-      </div> <!-- end container -->
-    </div> <!-- end about -->
+						<article>
+							<p>
+								<h3>Github: </h3>
+								<a href="https://github.com/klynne23" target='_blank'>my code</a>
+							</p>
+						</article>
+						<article>
+							<p>
+								<h3>LinkedIn: </h3>
+								<a href="https://www.linkedin.com/in/kirthi-lynne-720aa0104/" target="_blank">my page</a>
+							</p>
+						</article>
+					</div>
+
+					<!-- <article>
+						<h3>Making use of Icon Fonts</h3>
+						<p>Locavore irony gastropub chillwave, butcher meggings flexitarian pinterest master cleanse
+							godard. Intelligentsia pop-up neutra, williamsburg gastropub godard pinterest swag deep v
+							umami lomo. Butcher next level 90's wolf bushwick, narwhal photo booth YOLO kale chips
+							whatever small batch. Meh viral ethical hella cardigan portland, street art mlkshk meggings
+							mixtape kale chips cliche messenger bag pitchfork... <a href="#">Read more</a></p>
+					</article> -->
+				</div>
+				<span class="bl-icon bl-icon-close"></span>
+			</section>
+
+			<section>
+				<div class="bl-box">
+					<h2 class="bl-icon bl-icon-contact">Resume</h2>
+				</div>
+				<div class="bl-content resumeContent">
+					<h2 id="resumeTitle">Kirthi L. Bisset</h2>
+					<!-- <h1>Kirthi.Bisset@yahoo.com</h1> -->
+					<!-- <h1>(571)-344-3210</h1> -->
+					<hr>
+					<h2>Technical Skills</h2>
+					<p> HTML5, CSS3, SASS, JavaScript, Object-Oriented Javascript, Bootstrap, Foundation, Sequelize,
+						MVC/ORM Models, JQuery, Node.js, Ajax/Axios, MySQL, Express, MongoDB, React, D3</p>
+					<hr>
+					<h2>Experience</h2>
+					<h4>Teaching Assistant</h4>
+					<h5>George Washington University Coding Bootcamp</h5>
+					<h6>March 2019 - Present</h6>
+					<ul>
+
+						<li>
+							<p>- Troubleshooting, asking critical thinking questions, and regularly checking in with
+								students</p>
+						</li>
+						<li>
+							<p>- Providing meaningful and constructive feedback for students to learn from their
+								mistakes</p>
+						</li>
+						<li>
+							<p>- Anticipating student questions and guiding students to reach the answer</p>
+						</li>
+						<li>
+							<p>- Encourage relevant student discussion and new ideas</p>
+						</li>
+						<li>
+							<p>- Monitor Time Trackers to keep class on schedule</p>
+						</li>
+						<li>
+							<p>- Review upcoming lesson plan for Instructor </p>
+						</li>
+
+						<li>
+							<p>- Grade all technology homework assignments</p>
+						</li>
+					</ul>
+					<hr class="divider">
+					<h4>Billing Support Specialist</h4>
+					<h5>AFSC/Magellan Federal</h5>
+					<h6>December 2017 - September 2018</h6>
+					<ul>
+						<li>
+							<p>- Responsible for completion and accuracy of monthly contract billing documents.
+								Knowledge and expertise of Joint Travel Regulations (JTR).</p>
+						</li>
+						<li>
+							<p>- Provide exceptional customer service and communcation to project managers and
+								internal/external staff</p>
+						</li>
+						<li>
+							<p>- Research and resolve outstanding un-billed contract balances</p>
+						</li>
+						<li>
+							<p>- Knowledge and expertise of Joint Travel Regulations (JTR)</p>
+						</li>
+						<li>
+							<p>- Maintain updated log of Project Status Report changes</p>
+						</li>
 
 
-    <hr class="divider">
+					</ul>
+					<hr class="divider">
+					<h4>Park Manager</h4>
+					<h5>Fairfax County Park Authority</h5>
+					<h6>March 2013 - May 2017</h6>
+					<ul>
+						<li>
+							<p>- Member of Management Team services the needs of Park Goers and overseeing the
+								well-being of the Park</p>
+						</li>
+						<li>
+							<p>- Hired/trained/supervised new employees and team members in all park operations and
+								policies</p>
+						</li>
+						<li>
+							<p>- Interacted with visitors and promoted park rules, regulations and safety measures</p>
+						</li>
+						<li>
+							<p>- Served as the main point of contact for the park Campgrounds</p>
+						</li>
+						<li>
+							<p>- Oversee planning and coordination of events</p>
+						</li>
+						<li>
+							<p>- Ordering merchandise</p>
+						</li>
+					</ul>
+					<hr>
+					<h2>Education</h2>
+					<h4>George Washington University</h4>
+					<h5>November 2018 - February 2019</h5>
+					<p>Full Stack Web Developer Immersive Course</p>
 
-    <div class="work">
-      <h2 class="workTitle">⊢ PROJECTS ⊣</h2>
-
-      <div class="container workContainer">
-        <div class="row">
-
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <img src="assets/images/marvel1.png">
-            <h6 class="projectTitle"><a class="projectLink" href="https://klynne23.github.io/marvel/" target="_blank">MARVEL
-                API HERO
-                SEARCH</a></h6>
-            <p class="desc">This project utilizes 2 APIs (Marvel API & TMDB API) to create a sleek Superhero display
-              based on any Marvel character search</p>
-          </div>
-          <div class="col-md-6 col-lg-6 col-sm-12">
-            <img src="assets/images/chronological.png">
-            <h6 class="projectTitle"><a class="projectLink" href="https://chronologicalgw.herokuapp.com/" target="_blank">CHRONOLOGICAL</a></h6>
-            <p>This application allows users to compare timelines in order to pick out temporal
-              relationships or patters</p>
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-5"></div>
-          <div class="fullPort col-md-2 col-lg-2 col-sm-2">
-            <a href="./portfolio.html" class="btn btn-outline-light" role="button"> All Projects →</a>
-          </div>
-          <div class="col-md-5"></div>
-        </div>
-      </div>
-
-    </div> <!-- end work -->
-
-    <hr class="divider">
-
-    <div class="contact">
-      <h2 class="contactTitle">⊢ CONTACT ME ⊣</h2>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-              <a href="https://www.linkedin.com/in/kirthi-lynne-720aa0104/" target="_blank" class="btn btn-outline-light" role="button"> LinkedIn</a>
-              <a href="https://github.com/klynne23" target="_blank" class="btn btn-outline-light" role="button"> GitHub</a>
-
-            <button type="button" class="btn btn-outline-light">Email </button>
-          </div>
-          <div class="col-md-3"></div>
-        </div>
-      </div>
+					<h4 id=gM>George Mason University</h4>
+					<h5>August 2011 - May 2015</h5>
+					<p>Bs, Information Systems and Operations Management</p>
+					<p>Minor, Information Technology</p>
 
 
-    </div> <!-- end contact -->
+				</div>
+				<span class="bl-icon bl-icon-close"></span>
+			</section>
 
-  </main>
+			<!-- Panel items for the works -->
+			<div class="bl-panel-items" id="bl-panel-work-items">
+				<div data-panel="panel-1">
+					<div>
+						<img src="./img/marvel1.png" />
+						<h3>Marvel Search</h3>
+						<p>Built using HTML5, CSS3, JavaScript, JQuery, Ajax and frameworked with Foundation. The User
+							searches for a character and a call is made to a Marvel API while another call is made to
+							a TMDb API. The 5 most recent searches are saved in local storage</p>
+					</div>
+				</div>
+				<div data-panel="panel-2">
+					<div>
+						<img src="./img/pokemon.png" />
+						<h3>Pokemon Memory Game</h3>
+						<p>Built using React, JSX and frameworked with Bootstrap. This application displays 15 images
+							and challenges the user to try and click on all the images without repeating any... however
+							the images
+							will randomly shuffle after each click!</p>
+					</div>
+				</div>
+				<div data-panel="panel-3">
+					<div>
+						<img src="./img/dclutter.png" />
+						<h3>D-Clutter your life</h3>
+						<p>Built using Axios, MERN stack and frameworked with Bootstrap.
+							This web application allows a user to select from a list of items for any they would like to
+							donate. They
+							are then provided a list of donation sites, the items they accept, the location, and a map
+							of the
+							location.</p>
+						<p>
+							Features integration of Leaflet for rendering maps and a Geocoding API by Google to feed
+							Leaflet the
+							latitude and longitude of physical addresses.</p>
+					</div>
+				</div>
+				<div data-panel="panel-4">
+					<div>
+						<img src="./img/chronological.png" />
+						<h3>Chronological</h3>
+						<p>Built using Node, Express, Sequelize and frameworked with Bootstrap. This web application
+							allows users to create and compare timelines in order to identify temporal relationships
+							between events.
+							This full-stack project features user authentication (Passport), template handling
+							(Handlebars), and
+							database management (MySQL). Timeline was used to dynamically generate the timelines</p>
+					</div>
+				</div>
+				<nav>
+					<span class="bl-next-work">&gt; Next Project</span>
+					<span class="bl-icon bl-icon-close"></span>
+				</nav>
+			</div>
+		</div>
+	</div><!-- /container -->
 
+	<!-- /Demo content -->
 
-  <footer>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/main.js"></script>
+	<script src="js/boxlayout.js"></script>
+	<script>
+		$(function () {
+			Boxlayout.init();
+		});
+	</script>
 
-    <div class="footer-copyright">
-      <div class="container">
-        © 2019 Kirthi Lynne
-      </div>
-    </div>
-
-  </footer>
-
-
-  <!-- Added link to the jQuery Library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-  <!-- link to js file -->
-  <script src="./assets/js/code.js"></script>
 
 </body>
-
 
 </html>
