@@ -65,6 +65,8 @@ a:hover {
 	/* background: #F06060; */
 	/* background: #c6eaf7; */
 	background: linear-gradient(to bottom, #c6eaf7, #93dffa);
+	/* background-image: url('../images/1.jpg'); */
+	/* background-size: 100%; */
 }
 
 .bl-main > section:nth-child(2) {
@@ -72,7 +74,9 @@ a:hover {
 	left: 50%;
 	/* background: #FA987D; */
 	/* background: #a1d5fa; */
-	background: linear-gradient(to bottom, #a1d5fa, #65ccf1);
+	background: linear-gradient(to bottom, #a1d5fa, #58c9f1);
+	/* background-image: url('../images/2.jpg'); */
+	/* background-size: 200%; */
 
 }
 
@@ -81,7 +85,10 @@ a:hover {
 	left: 0;
 	/* background: #72CCA7; */
 	/* background: #54A2D2; */
-	background: linear-gradient(to bottom, #54A2D2, rgb(53, 122, 165));
+	background: linear-gradient(to bottom, #54A2D2, #2d6c94);
+	/* background-image: url('../images/3.jpg'); */
+	/* background-size: 100%; */
+
 }
 
 .bl-main > section:nth-child(4) {
@@ -89,7 +96,10 @@ a:hover {
 	left: 50%;
 	/* background: #10A296; */
 	/* background: #003A64; */
-	background: linear-gradient(to bottom, rgb(0, 94, 161), #003A64);
+	background: linear-gradient(to bottom, #005ea1, #003A64);
+	/* background-image: url('../images/4.jpg');
+	background-size: 200%; */
+
 }
 
 .bl-box {
@@ -153,21 +163,6 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-/* .bl-icon-about:before {
-	content: "\e000";
-}
-
-.bl-icon-works:before {
-	content: "\e001";
-}
-
-.bl-icon-blog:before {
-	content: "\e002";
-}
-
-.bl-icon-contact:before {
-	content: "\e003";
-} */
 
 .bl-main > section .bl-icon-close {
 	position: absolute;
@@ -278,6 +273,7 @@ div.bl-panel-items > div > div {
 .bl-content > ul li a img {
 	display: block;
 	max-width: 100%;
+
 }
 
 /* Panel Items */
@@ -314,6 +310,8 @@ div.bl-panel-items > div > div img {
 	float: left;
 	margin: 0 20px 20px 0;
 	max-width: 100%;
+	border: 8px solid rgba(0,0,0,0.1);
+
 }
 
 div.bl-panel-items {
@@ -424,7 +422,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 .bl-main > section:nth-child(3).bl-expand {
 	/* background: #4BBE8E; */
 	/* background: #54A2D2; */
-	background: linear-gradient(to bottom, #54A2D2, rgb(53, 122, 165));
+	background: linear-gradient(to bottom, #54A2D2, #2d6c94);
 	color: white;
 }
 .bl-main > section:nth-child(4).bl-expand {
@@ -468,7 +466,9 @@ section.bl-expand .bl-box {
 	-ms-transform: translateY(-15px);
 	transform: translateY(-15px); */
 	font-size: 4.8em;
+	letter-spacing: 8px;
 }
+
 
 .bl-content,
 .bl-icon-close {

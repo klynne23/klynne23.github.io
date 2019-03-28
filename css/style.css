@@ -1,5 +1,17 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+
+/* 
+=======================
+MAIN PAGE CONTENT
+=======================
+*/
+
+
+
+
+
+
 /* 
 =======================
 ABOUT CONTENT
@@ -28,7 +40,7 @@ ABOUT CONTENT
 }
 
 #mePic {
-    border: 3px solid white;
+    border: 10px solid white;
     width: 310px;
     height: 310px;
     margin-left: 10px;
@@ -74,15 +86,11 @@ hr {
     margin-bottom: 25px;
 }
 
-/* hr.divider {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0));
-} */
 
 hr.divider {
     overflow: visible; /* For IE */
     padding: 0;
     border: none;
-    /* border-top: medium double rgb(255, 255, 255); */
     color: rgb(255, 255, 255);
     text-align: center;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0));
@@ -95,7 +103,6 @@ hr.divider:after {
     top: -0.7em;
     font-size: 1.5em;
     padding: 0 0.25em;
-    /* background: white; */
 }
 
 #gM {
@@ -112,9 +119,7 @@ WORK CONTENT
 
 @media screen and (min-width: 900px) {
 
-  
-
-      .bl-content > ul li {
+    .bl-content > ul li {
         display: inline-block;
         width: 45%;
         margin: 2%;
@@ -138,12 +143,53 @@ WORK CONTENT
 
 }
 
+@media screen and (max-width: 458px) {
+
+    .bl-content article a {
+        font-size: 1.3em
+    }
+
+    .bl-content article h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 744px) {
+
+    .bl-content article a {
+        font-size: 1.9em
+    }
+
+    .bl-content article h3 {
+       font-size: 3em;
+    }
+   
+}
+
+@media screen and (max-width: 529px) {
+
+    .bl-content article {
+        padding: 0;
+    }
+}
+
+#portfolioTitle {
+    margin-bottom: 5px;
+}
+
+#portfolioSubtitle {
+    margin-bottom: 5px;
+}
+
 .projectLink {
     transition: .4s;
     color: #d3faff;
 }
 
-.projectLink:hover {
+a.projectLink:hover {
     color: #ffffff;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.24);
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
 }
+
+

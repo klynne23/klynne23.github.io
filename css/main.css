@@ -27,13 +27,13 @@ Enjoy responsibly!
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-p {
+/* p {
     line-height: 1.33em;
-    /* color: #7E7E7E; */
+    color: #7E7E7E;
 }
 h1 {
     color: #EEEEEE;
-}
+} */
 
 #loader-wrapper {
     position: fixed;
@@ -53,7 +53,7 @@ h1 {
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #3498db;
+    border-top-color: #005ea1;
 
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -70,7 +70,7 @@ h1 {
         bottom: 5px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #e74c3c;
+        border-top-color: #54A2D2;
 
         -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
         animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -85,7 +85,7 @@ h1 {
         bottom: 15px;
         border-radius: 50%;
         border: 3px solid transparent;
-        border-top-color: #f9c922;
+        border-top-color: #c6eaf7;
 
         -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
           animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -298,30 +298,28 @@ h1 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
 
-@media print,
+
+/* @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
-}
+/* } */ 
 
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 
-@media print {
+/* @media print {
     * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
+        background: transparent !important; */
+        /* color: #000 !important; Black prints faster: h5bp.com/s */
+        /* box-shadow: none !important;
         text-shadow: none !important;
-    }
-
+    } */
+/* 
     a,
     a:visited {
         text-decoration: underline;
@@ -333,13 +331,13 @@ h1 {
 
     abbr[title]:after {
         content: " (" attr(title) ")";
-    }
+    } */
 
     /*
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
+    /* .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
@@ -352,9 +350,10 @@ h1 {
     }
 
     thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
+        /* display: table-header-group; h5bp.com/t */
+    /* } */ 
+    
+    /* 
     tr,
     img {
         page-break-inside: avoid;
@@ -379,7 +378,7 @@ h1 {
     h3 {
         page-break-after: avoid;
     }
-}
+} */
 
 /* 
 	Ok so you have made it this far, that means you are very keen to on my code. 
